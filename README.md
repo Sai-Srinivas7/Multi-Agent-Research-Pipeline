@@ -89,6 +89,3 @@ Set these in your `.env` to override the defaults:
 
 Groq's API rejects the `cache_breakpoint` key that CrewAI injects into messages. `groq_patch.py` strips that key in a thin wrapper around `LLM.call`. The crew also disables CrewAI's internal cache and throttles requests to avoid hitting free-tier rate limits.
 
-## License
-
-MIT
